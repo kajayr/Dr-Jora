@@ -115,10 +115,10 @@ img{
 }
 
 .paragraph{
-
+    min-width: 50%;
     text-align: center;
     padding: 0 7%;
-  font-size:.9rem;
+    line-height:1.6;
 }
 
 .education-title{
@@ -175,8 +175,10 @@ a{
   .img-wrap{
     display: none;
 }
+.paragraph{
+  line-height:1.6;
 }
-
+}
 
 @media(min-width:600px){
   .grid-wrap{
@@ -211,9 +213,10 @@ a{
 
   text-align: center;
   padding: 0 7%;
-font-size:1rem;
+font-size:3rem;
 }
 }
+
 
 
 @media(min-width:700px){
@@ -229,57 +232,6 @@ font-size:1rem;
 }
 }
 
-@media(min-width:950px){
-  .grid-wrap{
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-      grid-template-areas: 
-      'header header header header header'
-      'img img img img img'
-      'about about about about about '
-      'education head2 head2 head2 contact'
-      'footer footer footer footer footer'
-  }
-  .Contact{
-  background: #998a66;
-  height: 17vh;
-  box-shadow: 0 5px 5px -2px #998a66;
-}
-  .head2{
-  grid-area:head2;
-  height: 17vh;
-text-shadow: 2px 2px 4px #000000;
-  z-index: 2;
-  box-shadow: 0 5px 5px -2px #998a66;
-}
-  .img-wrap{
-display:block;
-margin-left:5%;
-}
-  img{
-border:1px black solid;
-border-radius: 20px;
-    margin: 1% 1%;
-    transition: margin .5s;
-}
-img:hover{
-  margin-bottom: 4px;
-  transition: margin-bottom .5s;
-}
-  .about{
-    margin-top:10%;
-    height: 30vh;
-  }
-  .paragraph{
-    max-width: 50%;
-    margin: 0 auto;
-  }
-}
-
-@media(max-width:1050px){
-  img{
-    height:25vh;
-  }
-}
 
 @media (min-height: 360px) and (min-width: 640px) {
 .header-title{
@@ -296,6 +248,7 @@ img:hover{
 }
 .paragraph{
   font-size: .8rem;
+  line-height:1.6;
 }
 .education-title{
   font-size: 1rem;
@@ -346,7 +299,10 @@ img:hover{
     font-size: 1rem;
   }
   .paragraph{
-    font-size: .8rem;
+    font-size: .9rem;
+    max-width: 60%;
+    margin: 0 auto;
+    line-height:1.6;
   }
   .education-title{
     font-size: 1rem;
@@ -397,7 +353,7 @@ img:hover{
       font-size: 2.5rem;
     }
     .paragraph{
-      font-size: 1.8rem;
+      font-size: 2rem;
     }
     .education-title{
       font-size: 2.5rem;
@@ -451,8 +407,8 @@ img:hover{
         font-size: 2.5rem;
       }
       .paragraph{
-        font-size: 1.8rem;
-        min-width: 80%;
+        font-size: 2rem;
+        min-width: 90%;
       }
       .contact-title{
         font-size: 2rem;
@@ -562,4 +518,67 @@ height: 20vh;
         .Contact{
           height: 20vh;
         }
+        }
+
+        @media(min-width:950px){
+          .grid-wrap{
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+              grid-template-areas: 
+              'header header header header header'
+              'img img img img img'
+              'about about about about about '
+              'education head2 head2 head2 contact'
+              'footer footer footer footer footer'
+          }
+          .Contact{
+          background: #998a66;
+          height: 17vh;
+          box-shadow: 0 5px 5px -2px #998a66;
+        }
+          .head2{
+          grid-area:head2;
+          height: 17vh;
+        text-shadow: 2px 2px 4px #000000;
+          z-index: 2;
+          box-shadow: 0 5px 5px -2px #998a66;
+        }
+          .img-wrap{
+        display:block;
+        margin-left:5%;
+        }
+          img{
+        border:1px black solid;
+        border-radius: 20px;
+            margin: 1% 1%;
+            transition: margin .5s;
+        }
+        img:hover{
+          margin-bottom: 4px;
+          transition: margin-bottom .5s;
+        }
+          .about{
+            margin-top:10%;
+            height: 30vh;
+          }
+          .paragraph{
+            max-width: 65%;
+            margin: 0 auto;
+            font-size: .9rem;
+          }
+          .head2{
+            height: 20vh;
+          }
+          .education{
+            height: 20vh;
+          }
+          .Contact{
+            height: 20vh;
+          }
+          
+        }
+        
+        @media(max-width:1050px){
+          img{
+            height:25vh;
+          }
         }
