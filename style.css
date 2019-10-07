@@ -111,6 +111,7 @@ img{
     display: block;
     text-align: center;
     margin: .5% auto;
+    font-size: 1rem;
 }
 
 .paragraph{
@@ -165,20 +166,6 @@ a{
     color:white;
     
 }
-
-/* @media(max-width:449px){
-  .education-des{
-    font-size: .8rem;
-    padding-top: .5%;
-}
-  .img-wrap{
-    display: none;
-}
-.header{
-  height: 20vh;
-}
-} */
-
 
 @media(min-width:450px){
   .education-des{
@@ -293,3 +280,286 @@ img:hover{
     height:25vh;
   }
 }
+
+@media (min-height: 360px) and (min-width: 640px) {
+.header-title{
+  font-size: 1rem;
+}
+.head2{
+  font-size: 1rem;
+}
+.important{
+  font-size: .8rem;
+}
+.about-title{
+  font-size: 1rem;
+}
+.paragraph{
+  font-size: .8rem;
+}
+.education-title{
+  font-size: 1rem;
+}
+.contact-title{
+  font-size: 1rem;
+}
+.contact-details{
+  font-size: .8rem;
+}
+.education-des{
+  font-size: .8rem;
+}
+.education-uniName{
+  font-size: .8rem;
+}
+.footer{
+  height: 7vh;
+}
+.head2{
+  height: 15vh;
+}
+.education{
+  height: 22vh;
+}
+.Contact{
+  height: 22vh;
+}
+}
+
+@media (min-height: 320px) and (min-width: 568px) {
+  .header-title{
+    font-size: 1rem;
+  }
+  .header{
+    height: 10vh;
+  }
+  .about{
+    height: 40vh;
+  }
+  .head2{
+    font-size: 1rem;
+  }
+  .important{
+    font-size: .8rem;
+  }
+  .about-title{
+    font-size: 1rem;
+  }
+  .paragraph{
+    font-size: .8rem;
+  }
+  .education-title{
+    font-size: 1rem;
+  }
+  .contact-title{
+    font-size: 1rem;
+  }
+  .contact-details{
+    font-size: .8rem;
+  }
+  .education-des{
+    font-size: .8rem;
+  }
+  .education-uniName{
+    font-size: .8rem;
+  }
+  .footer{
+    height: 7vh;
+  }
+  .head2{
+    height: 15vh;
+  }
+  .education{
+    height: 22vh;
+  }
+  .Contact{
+    height: 22vh;
+  }
+  }
+
+  @media (min-height: 1024px) and (min-width: 768px) {
+    .header-title{
+      font-size: 2.5rem;
+    }
+    .header{
+      height: 10vh;
+    }
+    .about{
+      height: 46vh;
+    }
+    .head2{
+      font-size: 1rem;
+    }
+    .important{
+      font-size: 2rem;
+    }
+    .about-title{
+      font-size: 2.5rem;
+    }
+    .paragraph{
+      font-size: 1.8rem;
+    }
+    .education-title{
+      font-size: 2.5rem;
+    }
+    .contact-title{
+      font-size: 2.5rem;
+    }
+    .contact-details{
+      font-size: 1.6rem;
+    }
+    .education-des{
+      font-size: 1.6rem;
+    }
+    .education-uniName{
+      font-size: 1.6rem;
+    }
+    .footer{
+      height: 7vh;
+    }
+    .footer-details{
+      font-size: 1.5rem;
+    }
+    .head2{
+      height: 15vh;
+    }
+    .education{
+      height: 22vh;
+    }
+    .Contact{
+      height: 22vh;
+    }
+    }
+
+    @media (min-height: 1366px) and (min-width: 1024px) {
+      .header-title{
+        font-size: 2.5rem;
+      }
+      .header{
+        height: 10vh;
+      }
+      .img-wrap{
+        height: 20vh;
+      }
+      .about{
+        height: 31vh;
+      }
+      .important{
+        font-size: 1.6rem;
+      }
+      .about-title{
+        font-size: 2.5rem;
+      }
+      .paragraph{
+        font-size: 1.8rem;
+        min-width: 80%;
+      }
+      .contact-title{
+        font-size: 2rem;
+        margin-top: 20%;
+      }
+      .contact-details{
+        font-size: 1.6rem;
+        margin-top:22%;
+      }
+      .education{
+        height: 25vh;  
+         
+      }
+      .education-title{
+        font-size: 2rem;
+        margin-top: 10%;
+      }
+      .education-des{
+        font-size: 1.6rem;
+        margin-top:5%;
+      }
+      .education-uniName{
+        font-size: 1.6rem;
+        margin-top:10%;
+      }
+      .footer{
+        height: 7vh;
+      }
+      .footer-details{
+        font-size: 1.5rem;
+      }
+      .head2{
+        height: 25vh;
+      }
+      .Contact{
+        height: 25vh;
+      }
+      .grid-wrap{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-areas: 
+      'header header header header header'
+      'img img img img img'
+      'about about about about about '
+      'education education head2 head2 contact'
+      'footer footer footer footer footer'
+  }
+
+      }
+
+      @media (min-height: 1024px) and (min-width: 1366px) {
+        .header-title{
+          font-size: 2.5rem;
+        }
+        .header{
+          height: 10vh;
+        }
+        .about{
+          height: 30vh;
+        }
+        .important{
+          font-size: 2rem;
+          
+        }
+        .about-title{
+          font-size: 2.5rem;
+        }
+        .paragraph{
+          font-size: 1.8rem;
+          min-width: 90%;
+        }
+        .education-title{
+          font-size: 2.5rem;
+          margin-left:20%;
+        }
+        .contact-title{
+          font-size: 2.5rem;
+        }
+        .contact-details{
+          font-size: 1.6rem;
+          margin-right: 2%;
+        }
+        .education-des{
+          font-size: 1.4rem;
+          margin-left:10%;
+          margin-top:5%;
+          min-width: 100%;
+        }
+        .education-uniName{
+          font-size: 1.6rem;
+          margin-left:20%;
+        }
+        .footer{
+          height: 7vh;
+        }
+        .footer-details{
+          font-size: 1.5rem;
+        }
+        .img-wrap{
+height: 20vh;
+        }
+        .head2{
+          height: 20vh;
+        }
+        .education{
+          height: 20vh;
+        }
+        .Contact{
+          height: 20vh;
+        }
+        }
