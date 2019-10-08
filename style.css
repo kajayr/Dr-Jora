@@ -118,7 +118,6 @@ img{
     min-width: 50%;
     text-align: center;
     padding: 0 7%;
-    line-height:1.6;
 }
 
 .education-title{
@@ -175,9 +174,6 @@ a{
   .img-wrap{
     display: none;
 }
-.paragraph{
-  line-height:1.6;
-}
 }
 
 @media(min-width:600px){
@@ -213,7 +209,7 @@ a{
 
   text-align: center;
   padding: 0 7%;
-font-size:3rem;
+font-size:2rem;
 }
 }
 
@@ -248,7 +244,6 @@ font-size:3rem;
 }
 .paragraph{
   font-size: .8rem;
-  line-height:1.6;
 }
 .education-title{
   font-size: 1rem;
@@ -299,10 +294,9 @@ font-size:3rem;
     font-size: 1rem;
   }
   .paragraph{
-    font-size: .9rem;
-    max-width: 60%;
+    font-size: .8rem;
+    max-width: 90%;
     margin: 0 auto;
-    line-height:1.6;
   }
   .education-title{
     font-size: 1rem;
@@ -407,7 +401,7 @@ font-size:3rem;
         font-size: 2.5rem;
       }
       .paragraph{
-        font-size: 2rem;
+        font-size: 2.5rem;
         min-width: 90%;
       }
       .contact-title{
@@ -476,7 +470,7 @@ font-size:3rem;
           font-size: 2.5rem;
         }
         .paragraph{
-          font-size: 1.8rem;
+          font-size: 2rem;
           min-width: 90%;
         }
         .education-title{
@@ -563,7 +557,8 @@ height: 20vh;
           .paragraph{
             max-width: 65%;
             margin: 0 auto;
-            font-size: .9rem;
+            font-size: 1rem;
+            line-height: 1.6;
           }
           .head2{
             height: 20vh;
@@ -574,7 +569,6 @@ height: 20vh;
           .Contact{
             height: 20vh;
           }
-          
         }
         
         @media(max-width:1050px){
